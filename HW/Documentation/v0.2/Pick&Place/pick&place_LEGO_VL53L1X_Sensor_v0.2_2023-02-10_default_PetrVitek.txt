@@ -1,0 +1,68 @@
+Altium Designer Pick and Place Locations
+C:\ownCloud\Prace\VlastniDPS\LEGO_VL53L1X_Sensor_v2\HW\Dokumentace\v0.2\Pick&Place\pick&place_LEGO_VL53L1X_Sensor_v0.2_2023-02-10_default_PetrVitek.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10.02.23
+Time:       12:47
+Revision:   Not in VersionControl
+Variant:    default
+Units used: mm
+
+Designator Comment                  Layer       Footprint         Center-X(mm) Center-Y(mm) Rotation name                Value             
+C1         UniversalCapacitor       BottomLayer C0402             10.0000      6.5000       180      0402B104K250CT      "100nF 25V"       
+C2         4.7uF/10V                BottomLayer C0402_big         10.0000      5.5000       0        GRM155R61A475MEAAD  4.7uF/10V         
+C3         UniversalCapacitor       TopLayer    C0402             9.0850       6.2500       180      0402B104K250CT      "100nF 25V"       
+C4         UniversalCapacitor       TopLayer    C0402_big         11.0750      5.8940       180      GRM155R61A475MEAAD  4.7uF/10V         
+C5         UniversalCapacitor       TopLayer    C0402_big         8.1250       4.0000       270      GRM155R61A475MEAAD  4.7uF/10V         
+C6         UniversalCapacitor       TopLayer    C0402             14.3750      1.9650       90       0402B104K250CT      "100nF 25V"       
+C7         UniversalCapacitor       TopLayer    C0402             17.8100      5.1857       180      0402B104K250CT      "100nF 25V"       
+C9         UniversalCapacitor       TopLayer    C0402             15.3500      7.3750       180      0402B104K250CT      "100nF 25V"       
+C10        UniversalCapacitor       TopLayer    C0402             8.7500       17.6000      270      0402B104K250CT      "100nF 25V"       
+C11        UniversalCapacitor       TopLayer    C0402             12.6500      17.6000      270      0402B104K250CT      "100nF 25V"       
+C12        UniversalCapacitor       TopLayer    C0402             9.0850       7.3750       180      0402B104K250CT      "100nF 25V"       
+C13        UniversalCapacitor       TopLayer    C0402             4.1750       12.0250      0        0402B104K250CT      "100nF 25V"       
+C14        UniversalCapacitor       TopLayer    C0402             13.4500      7.3750       180      0402B104K250CT      "100nF 25V"       
+C15        UniversalCapacitor       TopLayer    C0402             15.6750      12.2750      180      0402B104K250CT      "100nF 25V"       
+C16        4.7uF/10V                TopLayer    C0402_big         15.3500      8.3750       0        GRM155R61A475MEAAD  4.7uF/10V         
+C17        4.7uF/10V                TopLayer    C0402_big         15.3500      9.3750       0        GRM155R61A475MEAAD  4.7uF/10V         
+C18        UniversalCapacitor       TopLayer    C0402             4.1750       10.9750      0        0402B104K250CT      "100nF 25V"       
+C19        UniversalCapacitor       TopLayer    C0402             15.6750      13.2750      180      0402B104K250CT      "100nF 25V"       
+C20        UniversalCapacitor       TopLayer    C0402             16.8750      18.4000      180      0402B104K250CT      "100nF 25V"       
+C21        4.7uF/10V                TopLayer    C0402_big         14.7350      18.4000      180      GRM155R61A475MEAAD  4.7uF/10V         
+C22        UniversalCapacitor       TopLayer    C0402             2.1750       12.2000      180      0402N270J500CT      "27pF 50V"        
+C23        UniversalCapacitor       TopLayer    C0402             2.6750       17.5000      0        0402N270J500CT      "27pF 50V"        
+C24        UniversalCapacitor       TopLayer    C0402             4.1500       4.0000       90       C0402C100D5GAC      "10pF / 50V"      
+C25        UniversalCapacitor       TopLayer    C0402             6.1250       4.0000       270      C0402C100D5GAC      "10pF / 50V"      
+D1         "LED GREEN"              BottomLayer LED0603           4.0000       16.0000      270      KPH-1608SGC         KPH-1608SGC       
+D2         "LED GREEN"              BottomLayer LED0603           16.0000      16.0000      270      KPH-1608SGC         KPH-1608SGC       
+D3         "LED GREEN"              BottomLayer LED0603           4.0000       10.0000      90       KPH-1608SGC         KPH-1608SGC       
+D4         "LED GREEN"              BottomLayer LED0603           16.0000      4.0000       270      KPH-1608SGC         KPH-1608SGC       
+D5         "LED GREEN"              BottomLayer LED0603           4.0000       4.0000       90       KPH-1608SGC         KPH-1608SGC       
+D6         Diode                    TopLayer    SOD523            13.5750      5.8750       0        BAS716,115          BAS716,115        
+IC1        VL53L1X                  BottomLayer VL53L1X           10.0000      10.0000      270      VL53L1CXV0FY/1      VL53L1CXV0FY/1    
+IC2        TXS0102DQMR              TopLayer    X2SON-8_1.8x1.2   6.7750       6.4500       270      TXS0102DQMR         TXS0102DQMR       
+IC3        W25Q16JV                 TopLayer    USON-8_3x2        16.6550      16.4500      0        W25Q16JVUXIQ        W25Q16JVUXIQ      
+IC4        RP2040                   TopLayer    QFN56             9.7500       12.2000      270      RP2040CT            RP2040CT          
+IC5        VoltageRegulator-Fixed08 TopLayer    WDFN6             10.2100      4.0000       0        NCP705MT33TCG       NCP705MT33TCG     
+R1         UniversalResistor0402    TopLayer    R0402             7.7250       17.6000      270      CRCW04022K20FKED    2k2               
+R2         UniversalResistor0402    TopLayer    R0402             6.7750       17.6000      270      CRCW04022K20FKED    2k2               
+R3         UniversalResistor0402    TopLayer    R0402             17.8100      3.5500       180      CRCW04022K20FKED    2k2               
+R4         UniversalResistor0402    TopLayer    R0402             15.3500      11.3000      180      CRCW040227R0FKED    27R               
+R5         UniversalResistor0402    TopLayer    R0402             15.3500      10.3500      180      CRCW040227R0FKED    27R               
+R6         UniversalResistor0402    TopLayer    R0402             4.1750       10.0000      0        CRCW04021K00FKED    "1k 1%"           
+R7         UniversalResistor0402    TopLayer    R0402             4.6500       13.4750      270      CRCW04021K00FKED    "1k 1%"           
+R8         UniversalResistor0402    TopLayer    R0402             5.1250       4.0000       270      CRCW040227R0FKED    27R               
+R9         UniversalResistor0402    TopLayer    R0402             7.1000       4.0000       270      CRCW040227R0FKED    27R               
+R10        UniversalResistor0402    TopLayer    R0402             4.1750       8.9750       0        CRCW04022K20FKED    2k2               
+R11        UniversalResistor0402    TopLayer    R0402             5.8250       17.6000      270      CRCW04022K20FKED    2k2               
+R12        UniversalResistor0402    TopLayer    R0402             11.0000      17.6000      270      CRCW04022K20FKED    2k2               
+R13        UniversalResistor0402    TopLayer    R0402             11.1000      7.3750       180      CRCW04022K20FKED    2k2               
+R14        UniversalResistor0402    TopLayer    R0402             3.1750       4.0000       90       CRCW04022K20FKED    2k2               
+R16        UniversalResistor0402    TopLayer    R0402             14.3750      4.3500       90       CRCW04021K00FKED    "1k 1%"           
+S1         PushButton               TopLayer    ButtonKMR2        1.7200       8.6250       0        "KMR211G LFS"       "KMR211G LFS"     
+T1         PNP                      TopLayer    DFN1006-3         12.3750      4.3500       90       PBSS2515M,315       PBSS2515M         
+T2         NPN_DUAL                 TopLayer    SOT-563-6         15.8750      4.1000       270      EMH53T2R            EMH53T2R          
+X1         USB                      TopLayer    USB3131-XX-0230-X 18.4550      10.0000      90       USB3131-30-0230-A   USB3131-30-0230-A 
+XT1        XTAL-4Pads-2Used         TopLayer    ABM8              2.4250       14.8250      90       ABM8-12.000MHZ-B2-T "12 MHz"          

@@ -1,0 +1,2 @@
+Record=DiagramHierarchy|SourceDocument=LEGO_VL53L1X_Sensor.MbsDoc|Kind=Multi-board Schematic Module|Designator=LEGO_VL53L1X_Sensor|Source=..\pcb\LEGO_VL53L1X_Sensor.PrjPcb
+Record=SubProject|SourceDocument=LEGO_VL53L1X_Sensor.MbsDoc|ProjectPath=..\pcb\LEGO_VL53L1X_Sensor.PrjPcb
