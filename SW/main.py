@@ -13,11 +13,16 @@ value = 0
  
 led = Pin(17, mode=Pin.OUT)
 led.on()
-ledTimer = machine.Timer(-1, period=500, callback=ledCallback )
+ledTimer = machine.Timer(-1, period=500, callback=ledCallback)
 
 # Name, Format [# datasets, type, figures, decimals], 
 # raw [min,max], Percent [min,max], SI [min,max], Symbol, functionMap [type, ?], view
+
+# SPIKE
 mode0 = ['DISTANCE',[1,LPF2.DATA16,3,0],[0,900],[0,100],[0,900],'RAW',[LPF2.ABSOLUTE,0],True]
+# EV3
+#mode0 = ['DISTANCE',[1,LPF2.DATAF,3,0],[0,900],[0,100],[0,900],'RAW',[LPF2.ABSOLUTE,0],True]
+
 modes = [mode0]
 
 txpin=20
@@ -28,8 +33,10 @@ pin1.on()
 pin0 = Pin(txpin, mode=Pin.OUT)
 pin0.off()
 
-lpf2 = LPF2.LPF2(1, txpin,rxpin, modes, LPF2.SPIKE_Ultrasonic, timer = -1, freq = 50)    # SPIKE
-#lpf2 = LPF2.LPF2(1, txpin,rxpin, modes, LPF2.Ev3_Utrasonic, timer = -1, freq = 50)    # EV3
+# SPIKE
+lpf2 = LPF2.LPF2(1, txpin,rxpin, modes, LPF2.SPIKE_Ultrasonic, timer = -1, freq = 50)  
+# EV3  
+#lpf2 = LPF2.LPF2(1, txpin,rxpin, modes, LPF2.Ev3_Utrasonic, timer = -1, freq = 50)    
 
 lpf2.initialize()
 
