@@ -1,15 +1,15 @@
 # LEGO® laser distance sensor
-LEGO® laser distance sensor is an open-source, which is used for robust distance measuring in educational robotic applications with LEGO® Mindstorms kits.
+LEGO® laser distance sensor is open-source, which is used for robust distance measuring in educational robotic applications with LEGO® Mindstorms kits.
 Advantages over the original LEGO® ultrasonic sensor:
 
  - Extended measurement range of up to 400 cm
  - Lower susceptibility to interference from other sensors
- - Refresh rate of up to 50 Hz
+ - The refresh rate of up to 50 Hz
 
 přidat fotky senzoru a senzoru s robotem
 
 ## LEGO® Mindstorms
-The laser sensor is recognizeed in the LEGO® Mindstorms app as an original ultrasonic sensor. You can therefore use standard blocks for distance measurement.
+The laser sensor is recognized in the LEGO® Mindstorms app as an original ultrasonic sensor. You can therefore use standard blocks for distance measurement.
 
 přidat fotku s led diodami a jejich popisky
 
@@ -33,10 +33,10 @@ přidat foto odebrane soucastky a rezistoru
 https://www.aliexpress.com/item/1005004076370021.html?spm=a2g0o.order_list.order_list_main.98.2dce1802ppkqRz
 
 ## CAD models
-The CAD folder contains files of the sensor case. It was designed for MJF 3D printer and it is recomended to use this type of printer.
+The CAD folder contains files of the sensor case. It was designed for MJF 3D printer and it is recommended to use this type of printer.
 
 ## Software
-### Requiremens
+### Requirements
 
 - Python 3
 - pip3
@@ -55,7 +55,7 @@ Windows:
 python.exe -m pip install --upgrade pip
 ```
 
-## How to bring sensor up
+## How to bring the sensor up
 
 ### Flashing MicroPython Firmware
 1. Press and hold the BOOTSEL button and plug your Lego Distance Sensor into the USB port of your computer. Release the BOOTSEL button after your Lego Distance Sensor is connected.
