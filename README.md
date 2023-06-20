@@ -5,13 +5,14 @@ Advantages over the original LEGO® ultrasonic sensor:
  - Extended measurement range of up to 400 cm
  - Lower susceptibility to interference from other sensors
  - The refresh rate of up to 50 Hz
+ - Based on [VL53L1x](https://www.st.com/en/imaging-and-photonics-solutions/vl53l1x.html) and [RP2040](https://www.raspberrypi.com/products/rp2040/)
 
-přidat fotky senzoru a senzoru s robotem
+![Sensor](Images/X0021616.jpg)
 
 ## LEGO® Mindstorms
 The laser sensor is recognized in the LEGO® Mindstorms app as an original ultrasonic sensor. You can therefore use standard blocks for distance measurement.
 
-přidat fotku s led diodami a jejich popisky
+![LED description](Images/X0021630.jpg)
 
 #### Connection signalization
 When connecting the laser sensor to LEGO® Spike/EV3, the status LED will flash. Once the laser sensor and LEGO® Spike/EV3 are correctly connected, the status LED will remain on.
@@ -27,7 +28,7 @@ The hardware is designed to operate with a power supply of either 3.3V or 5V, ut
 The power supply control logic, which switches between the micro USB connector and the LEGO® Powered Up connector, has not been tested yet. We recommend unsoldering diode D6 and soldering resistor R15 (0R) to use the power supply solely from the LEGO® Powered Up connector.
 </span>
 
-přidat foto odebrane soucastky a rezistoru
+![Sensor modification](Images/Sensor_modification.jpg)
 
 ### LEGO® Powered Up connector
 https://www.aliexpress.com/item/1005004076370021.html?spm=a2g0o.order_list.order_list_main.98.2dce1802ppkqRz
