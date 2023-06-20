@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\ownCloud\Prace\VlastniDPS\LEGO_VL53L1X_Sensor_v2\HW\Dokumentace\v0.2\Pick&Place\pick&place_LEGO_VL53L1X_Sensor_v0.2_2023-02-10_default_PetrVitek.txt
+C:\ownCloud\Prace\VlastniDPS\lego_vl53l1x_sensor_hw\HW\Dokumentace\v0.2\Pick&Place\pick&place_LEGO_VL53L1X_Sensor_v0.2_2023-06-20_default_PetrVitek.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       10.02.23
-Time:       12:47
-Revision:   Not in VersionControl
+Date:       20.06.23
+Time:       08:37
+Revision:   b740228142c9858929d07009b7d67fbff9810030
 Variant:    default
 Units used: mm
 
